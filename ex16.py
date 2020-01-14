@@ -26,6 +26,6 @@ line3 = raw_input("line3 : ")
 #target.write(line3)
 #target.write("\n")
 
-target.write("\n%r \n%r \n%r" % (line1,line2, line3))
+target.write("%s\n%s\n%s\n" % (line1, line2, line3))
 print('And finally we close it')
 target.close()
