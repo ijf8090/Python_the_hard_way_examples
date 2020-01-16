@@ -20,7 +20,7 @@ def print_last_word(words):
 def sort_sentence(sentence):
     """Takes in a full sentence and returns the sorted words."""
     words = break_words(sentence)
-    return sort_words(sentence)
+    return sort_words(words)
 
 def print_first_and_last(sentence):
     """Prints the first and last words of a sentence."""
@@ -35,11 +35,25 @@ def print_first_and_last_sorted(sentence):
     print_last_word(words)
 
 
-sentence = "All good things come to those who wait"
+sentence = "All good things come to those who wait."
 print sentence
 
-words = sort_words(sentence)
+words = break_words(sentence)
 print words
 
 sorted_words = sort_words(words)
 print sorted_words
+
+print_first_word(words)
+print_last_word(words)
+words
+
+print_first_word(sorted_words)
+print_last_word(sorted_words)
+sorted_words
+
+sorted_words = sort_sentence(sentence)
+sorted_words
+
+print_first_and_last(sentence)
+print_first_and_last_sorted(sentence)
