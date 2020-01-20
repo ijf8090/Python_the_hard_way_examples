@@ -1,6 +1,6 @@
 i = 0
 numbers = []
-initial_count_value = input("Enter the starting value: ")
+initial_count_value = int(input("Enter the starting value: "))
 
 def loop_function(counter,list_var):
     while counter < 6:
