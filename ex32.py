@@ -19,7 +19,7 @@ for fruit in change:
 #we can also build lists, first start with an empty one
 elements = []
 
-for i in range (0,6);
+for i in range (0,6):
     print("Adding %d to the list" % i)
     #append is a function that lists understand
     elements.append(i)
