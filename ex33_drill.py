@@ -8,7 +8,7 @@ max_value = int(input("Enter the maximum value: "))
 def loop_function(counter,max,list_var, increment_value):
     print("counter is %d" % counter
     )
-    while counter < max:
+    while counter < (max + 1):
      print("At the top counter is %d" % counter)
      list_var.append(counter)
 
