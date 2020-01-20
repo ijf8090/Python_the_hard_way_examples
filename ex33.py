@@ -3,7 +3,7 @@ numbers = []
 
 while i< 6:
  print("At the top i is %d" % i)
- numbers.append[i]
+ numbers.append(i)
 
  i += 1
  print("numbers now: " , numbers)
