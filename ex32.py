@@ -8,12 +8,12 @@ for number in the_count:
     print('This is count %d' % number)
 
 #same as above
-for fruit in fruit:
+for fruit in fruits:
     print('A fruit of type %s' % fruit)
 
 #We can go through mixed lists # too
 #We have to use %r since we don't know what's in the ist
-for fruit in change:
+for i in change:
     print('I got %r' % i)
 
 #we can also build lists, first start with an empty one
