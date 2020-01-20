@@ -3,8 +3,9 @@ numbers = []
 
 increment = int(input("Enter the increment value: "))
 initial_count_value = int(input("Enter the starting value: "))
+max_value = int(input("Enter the starting value: "))
 
-def loop_function(counter,list_var, increment_value):
+def loop_function(counter,max,list_var, increment_value):
     print("counter is %d" % counter
     )
     while counter < 6:
@@ -16,7 +17,7 @@ def loop_function(counter,list_var, increment_value):
      print("numbers now: " , list_var)
      print("At the bottom counter is %d" % counter)
 
-loop_function(initial_count_value,numbers, increment)
+loop_function(initial_count_value,max_value, numbers, increment)
 
 print("The numbers: ")
 for num in numbers:
