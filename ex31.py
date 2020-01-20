@@ -31,8 +31,3 @@ elif door == "2":
 
 else:
     print("You stumble around and fall on a knife and die.")
-
-if (cars > people) and (buses < cars) :
-    print("Let's just take the buses.")
-else:
-    print("Fine just stay home then.")
