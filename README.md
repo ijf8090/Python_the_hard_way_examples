@@ -1,1 +1,1 @@
-# Code examples from Learn PYTHON the hard way
+# Code examples from "Learn PYTHON the hard way"
