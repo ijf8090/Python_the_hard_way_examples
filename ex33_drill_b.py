@@ -9,7 +9,7 @@ def loop_function(counter,max,list_var, increment_value):
     print("counter is %d" % counter)
     starting_value = counter
 
-     for counter in range[starting_value .. (max + 1)] :
+    for counter in range(starting_value , (max + 1)) :
      print("At the top counter is %d" % counter)
      list_var.append(counter)
 
