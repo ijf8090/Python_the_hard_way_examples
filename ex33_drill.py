@@ -2,7 +2,7 @@ i = 0
 numbers = []
 
 
-initial_count_value
+initial_count_value = input("Enter the starting value: ")
 
 loop_function(initial_count_value,numbers)
 
