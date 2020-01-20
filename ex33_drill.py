@@ -4,7 +4,7 @@ numbers = []
 
 initial_count_value
 
-loop_function(initial_count_value,numbers):
+loop_function(initial_count_value,numbers)
 
 print("The numbers: ")
 for num in numbers:
